@@ -10,7 +10,7 @@
             "email": "support@beecloud.cn"
         }
     ],
-    "homepage": "https://beecloud.cn/"
+    "homepage": "https://beecloud.cn/",
     "require": {
     	"php" : ">=5.3.0",
         "ext-curl" : "*",
