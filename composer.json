@@ -1,6 +1,7 @@
 {
-    "name": "beecloud.cn/rest",
-    "description": "BeeCloud RESTful api in php",
+    "name": "beecloud.cn/rest-dev",
+    "keywords" : ["beecloud", "payment in China"],
+    "description": "BeeCloud RESTful api-dev in php",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,10 +10,13 @@
             "email": "support@beecloud.cn"
         }
     ],
-    "minimum-stability": "stable",
+    "homepage": "https://beecloud.cn/"
     "require": {
     	"php" : ">=5.3.0",
         "ext-curl" : "*",
         "ext-json" : "*"
+    },
+    "autoload": {
+	"psr-4": { "beecloud\\" : "composer/"}
     }
 }
