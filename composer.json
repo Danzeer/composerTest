@@ -10,8 +10,7 @@
             "email": "support@beecloud.cn"
         }
     ],
-    "version": "1.0.0",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "homepage": "https://beecloud.cn/",
     "require": {
     	"php" : ">=5.3.0",
