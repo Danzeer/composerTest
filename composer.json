@@ -11,6 +11,7 @@
         }
     ],
     "version": "1.0.0",
+    "minimum-stability": "stable",
     "homepage": "https://beecloud.cn/",
     "require": {
     	"php" : ">=5.3.0",
